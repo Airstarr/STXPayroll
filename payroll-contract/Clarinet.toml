@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.Salary-Distribution]
+path = 'contracts/Salary-Distribution.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.employee-management]
 path = 'contracts/employee-management.clar'
 clarity_version = 3
